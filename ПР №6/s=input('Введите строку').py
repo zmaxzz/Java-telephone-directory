@@ -1,2 +1,3 @@
-s=input('Введите строку')
-print(s.lower())
+def F(s):
+    print(s.lower())
+F('Тебе Сюда НЕЛЬзя')
