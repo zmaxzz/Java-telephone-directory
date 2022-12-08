@@ -1,7 +1,8 @@
 def f():
     from random import randint 
-    m=3
-    n=3
+    m=randint(1,3)
+    n=randint(1,3)
+
     a = [[randint(1, 9) for i in range(m)] for j in range(n)]
     for i in a :
         print(*i)
