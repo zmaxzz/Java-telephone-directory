@@ -1,13 +1,10 @@
 from random import randint
-def f ():
-    stroka1 = [randint(0,5) for i in range(3)]
-    stroka2 = [randint(0,5) for i in range(3)]
-    stroka3 = [randint(0,5) for i in range(3)]
-    print(stroka1)
-    print(stroka2)
-    print(stroka3)
-    print()
-    print(sorted(stroka1))
-    print(sorted(stroka2))
-    print(sorted(stroka3))
+def f():
+    N = 3
+    M = 3
+    a = [[randint(0, 9) for _ in range(M)] for _ in range(N)]
+    for i in a:
+        print(i)
+    for i in a:
+        print(sorted(i))
 f()
