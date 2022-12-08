@@ -10,12 +10,9 @@ A=[int(x) for x in R]
 P=[int(x) for x in Q]
 T=[int(x) for x in I]
 def f ():
-    print(A)
-    print(P)
-    print(T)
-    print()
-    S.write(str(sorted(A)))
-    S.write(str(sorted(P)))
-    S.write(str(sorted(T)))
+    a = [i for i in P]
+    S.write(str(a))
+    S.write(str(sorted(a)))
+
 f()
 S.close()
