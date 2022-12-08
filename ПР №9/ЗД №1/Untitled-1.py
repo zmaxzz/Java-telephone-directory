@@ -1,10 +1,10 @@
 from random import randint
 def f():
-    N = 3
-    M = 3
+    M=randint(1,3)
+    N=randint(1,3)
     a = [[randint(0, 9) for _ in range(M)] for _ in range(N)]
     for i in a:
-        print(i)
-    for i in a:
-        print(sorted(i))
+        print(*i)
+    for i in a: 
+        print(*sorted(i))
 f()
