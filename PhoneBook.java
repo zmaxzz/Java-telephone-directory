@@ -6,7 +6,7 @@ class PhoneBook {
 
     public PhoneBook() {
         contacts = new ArrayList<>();
-        System.out.print("Введите номер или фамилию обьекта:");
+        System.out.print("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РёР»Рё С„Р°РјРёР»РёСЋ РѕР±СЊРµРєС‚Р°:");
     }
 
     public void addContact(Person person) {
@@ -27,7 +27,7 @@ class PhoneBook {
         for (Person person : contacts) {
             if (person.getLastName().equals(lastName)) {
                 System.out.println(person.getFirstName() + " " + person.getLastName());
-                System.out.println("Номера телефонов:");
+                System.out.println("РќРѕРјРµСЂР° С‚РµР»РµС„РѕРЅРѕРІ:");
 
                 for (String phoneNumber : person.getPhoneNumbers()) {
                     System.out.println(phoneNumber);
@@ -44,7 +44,7 @@ class PhoneBook {
         for (Person person : contacts) {
             if (person.getPhoneNumbers().contains(phoneNumber)) {
                 System.out.println(person.getFirstName() + " " + person.getLastName());
-                System.out.println("Номера телефонов:");
+                System.out.println("РќРѕРјРµСЂР° С‚РµР»РµС„РѕРЅРѕРІ:");
                 for (String phone : person.getPhoneNumbers()) {
                     System.out.println(phone);
                 }
