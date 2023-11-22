@@ -27,7 +27,7 @@ class Person {
         if (phoneNumbers.size() < 3) {
             phoneNumbers.add(phoneNumber);
         } else {
-            System.out.println("Невозможно добавить более 3 телефонных номеров.");
+            System.out.println("РќРµРІРѕР·РјРѕР¶РЅРѕ РґРѕР±Р°РІРёС‚СЊ Р±РѕР»РµРµ 3 С‚РµР»РµС„РѕРЅРЅС‹С… РЅРѕРјРµСЂРѕРІ.");
         }
     }
 
